@@ -1,0 +1,25 @@
+Übung 8
+
+Aufgabe 2)
+a)
+Man hat immer mindestens 2 falsch positive und 2 falsch negative Fehler.
+
+Die Punkte sind nicht durch eine lineare Funktion trennbar, weshalb ein besserer Algorithmus zur Klassifikation der Basisfunktionen-Trick wäre.
+Wenn wir die Daten somit 3D, statt 2D machen, kann man sie gut durch eine Hyperebene trennen.
+
+b)
+Bild in meinen Apple Notes, keine Ahnung, wie es hier rein geht
+￼
+c)
+Beim 3D-Datensatz haben wir nun zwei Ebenen. Die Ebene für X0 spannt sich zwischen den Punkten (-1,0,1) (0,-1,1) (1,0,1) und (0,1,1) auf.
+Analog ist es auch für X1. Dadurch sind beide Ebenen durch eine Hyperbene trennbar. Die Hyperebene wäre einfach eine „gerade“ Ebene bei z = 2,5.
+Z = 2,5 lässt sich hier auch gut wählen, da X0 eine „gerade“ Ebene auf der Höhe z = 1 und X1 eine auf z = 4 aufspannt.
+Somit ist eine Hyperebene bei z = 2,5 genau in der Mitte.
+
+Aufgabe 3)
+Es entspricht einer kleinen Modellkomplexität, da es beim größten Abstand am wenigsten Fehleranfällig ist.
+Es gibt sozusagen einen Toleranzbereich, da der Abstand zu beiden Klassifikationen groß ist.
+Wenn man Ausreißer hat, werden diese dann, solange sie nicht zu groß sind, toleriert.
+
+In Bezug auf den Bias-Variance-Tradeoff bedeutet dies, dass ein größeres Margin zu einer gewissen Erhöhung des Bias führen könnte, da das Modell weniger anfällig für komplexe Muster in den Daten ist, aber gleichzeitig zu einer Reduzierung der Varianz führt.
+Dies liegt daran, dass das Modell robuster gegenüber kleinen Schwankungen wird.

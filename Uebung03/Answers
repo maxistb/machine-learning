@@ -1,0 +1,13 @@
+Aufgabe 1)
+Leave-One Out Cross-Validation:
+- Für alle Daten wird jeweils ein Modell erstellt und trainiert
+- Für den aktuellen Datenpunkt werden alle anderen Daten genommen und dann trainiert.
+  Das wird dann mit dem aktuellen Datenpunkt getestet
+
+Stratified cross-validation:
+- Datensatz wird in Gruppen aufgeteilt: z.B. 30% Männer und 70% Frauen im Datensatz, wird dementsprechend aufgeteilt
+- Somit wird jede Aufteilung in K-Fold repräsentativ, da alle 30% Männer und 70% Frauen haben
+
+Aufgabe 2)
+- Performance
+- Komplexität
