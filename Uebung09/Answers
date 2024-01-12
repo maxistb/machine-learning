@@ -1,0 +1,9 @@
+1.1 + 1.2 Im Collegeblock
+
+2)
+Die Intuition hinter dem Beweis ist, dass falls uj der Centroid des Clusters ist, der durchschnittliche Abstand zu allen anderen Punkten des Cluster minimal ist.
+In der ersten Formel berechnen wir die Summe aller Abstände zwischen dem Clusterzentrum und den Datenpunkten des Clusters quadratisch.
+Falls jetzt hier das Clusterzentrum gleichzeitig auch der Centroid des Clusters ist, wissen wir, dass die Summe der Abstände minimal sein muss.
+Dies liegt daran, dass der Centroid definiert ist als der durchschnittliche Punkt aller Datenpunkte dieses Clusters.
+Daher ist dann auch der durchschnittliche Abstand zu allen anderen Punkten minimal.
+
